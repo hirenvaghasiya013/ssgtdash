@@ -1,0 +1,147 @@
+<div class="pos_fixed">
+    <a href="javascript:void(0)" onclick="window.location='addtask.htm'" class="creative_btn"><span class="icon-Add"></span></a>
+</div>
+
+<div class="header_wrapper">
+    <div class="heading">
+        <h2>Edit</h2>
+    </div>
+    <div class="nav-right right">
+        <ul>
+            <li class="more_menu">
+                <a class="dropdown-toggle" href="javascript:void(0)" title="View More"><span class="icon-More"></span></a>
+                <ul class="dropdown fadeInUpShort animated">
+                    <li><a href="#">Time</a></li>
+                    <li><a href="#">Place</a></li>
+                    <li><a href="#">Date</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="window.location='list-page.htm'" class="close_btn">Close</a>
+            </li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="addtask pageinput">
+    <form role="form">
+        <div class="input_fld">
+            <input type="text" id="username" placeholder="Subject" value="Graphic Design Applications" required />
+        </div>
+        <div class="input_fld">
+            <select name="category">
+                <option value="category">Category</option>
+                <option value="first" selected>Admin</option>
+            </select>
+        </div>
+        <div class="input_fld">
+            <select name="category">
+                <option value="category">Task Assignee</option>
+                <option value="first" selected>@Admin</option>
+            </select>
+        </div>
+        <div class="input_fld leftside left">
+            <select name="category">
+                <option value="category">Type</option>
+                <option value="first" selected>Task</option>
+            </select>
+        </div>
+        <div class="input_fld rightside left">
+            <select name="category">
+                <option value="category">Status</option>
+                <option value="first" selected>Close</option>
+            </select>
+        </div>
+        <div class="input_fld leftside left inputicon">
+            <span class="icon-Calendar icon"></span>
+            <input type="text" id="Text5" class="datepicker" placeholder="22/12/2018" required />
+        </div>
+        <div class="input_fld rightside left inputicon">
+            <span class="icon-Time icon"></span>
+            <input type="text" id="Text6" class="timepicker" placeholder="4:00 PM" required />
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="form-group">
+            <div class="prio_text left">Priority</div>
+            <div class="radiobbox">
+                <label>
+                  <input type="radio" name="priority" value="high" checked>
+                  <span class="icon icon-High"></span>
+                </label>
+                <label>
+                  <input type="radio" name="priority" value="medium">
+                  <span class="icon icon-Medium medium"></span>
+                </label>
+                <label>
+                  <input type="radio" name="priority" value="low">
+                  <span class="icon icon-Low"></span>
+                </label>
+            </div>
+        </div>
+        <div class="input_fld">
+            <textarea name="description" placeholder="Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </textarea>
+        </div>
+        <div class="comment_box">
+            <div class="comment_collpase">
+                <a href="javascript:void(0)"><span class="icon icon-Dropdown"></span> 4 Comments</a>
+            </div>
+            <div class="comment_display">
+                <div class="comment_expand">
+                    <div class="comment_view">
+                        <div class="comment_icon left">
+                            <span class="icon-User"></span>
+                        </div>
+                        <div class="comment_text left">
+                            <h4>Graphic Design Applications</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="comment_view">
+                        <div class="comment_icon left">
+                            <span class="icon-User"></span>
+                        </div>
+                        <div class="comment_text left">
+                            <h4>Graphic Design Applications</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="comment_view">
+                    <div class="comment_icon left">
+                        <span class="icon-User"></span>
+                    </div>
+                    <div class="comment_text left">
+                        <h4>Graphic Design Applications</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="comment_view">
+                    <div class="comment_icon left">
+                        <span class="icon-User"></span>
+                    </div>
+                    <div class="comment_text left">
+                        <h4>Graphic Design Applications</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="add_com">
+                <span class="icon icon-ADDComment"></span>
+            </div>
+        </div>
+        <div class="form-group left saventn">
+            <button type="submit" class="btn-special"><span class="icon-SignInLeft icon"></span> Cancel</button>
+        </div>
+        <div class="form-group right saventn">
+            <button type="submit" class="btn-special" onclick="window.location = 'list-page.htm'">Save <span class="icon-SignInRight icon"></span></button>
+        </div>
+        <div class="clearfix">
+        </div>
+    </form>
+</div>
